@@ -1,0 +1,31 @@
+.Navbar-Container {
+    width: 30%;
+    align-items: center;
+}
+
+.Navbar-Container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 0;
+}
+
+.Navbar-Container ul li {
+    display: inline;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.Navbar-Container ul li a {
+    text-decoration: none;
+    color: Black;
+    font-weight: bolder;
+}
+
+
+/*Hovers*/
+
+.Navbar-Container ul :hover {
+    background-color: blue;
+}

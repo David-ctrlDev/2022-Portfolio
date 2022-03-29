@@ -1,0 +1,6 @@
+.portfolio--header--container {
+    background-color: papayawhip;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
