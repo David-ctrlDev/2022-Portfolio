@@ -9,7 +9,7 @@ import '../Components-CSS/PortfolioHeader.css';
 
 function PortfolioHeader() {
   return (
-    <div className='portfolio--header--container'> 
+    <div className='portfolio-header-container'> 
         <HeaderLogo></HeaderLogo>
         <Navbar></Navbar>
     </div>

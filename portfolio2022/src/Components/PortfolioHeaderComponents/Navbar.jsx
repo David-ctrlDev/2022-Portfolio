@@ -1,10 +1,12 @@
 import React from 'react'
 
-
+//Styles
 import '../../Components-CSS/PortfolioHeaderComponets/Navbar.css';
+
+
 function Navbar() {
   return (
-    <div className='Navbar-Container'>
+    <div className='navbar-container'>
         <nav>
             <ul>
                 <li >

@@ -1,7 +1,7 @@
-.portfolio--header--container {
-    background-color: papayawhip;
+.portfolio-header-container {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     position: fixed;
+    height: 10%;
 }

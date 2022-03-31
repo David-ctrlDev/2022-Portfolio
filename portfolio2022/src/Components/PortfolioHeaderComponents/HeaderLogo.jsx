@@ -1,10 +1,18 @@
 import React from 'react'
 
+
+//Components
+//Styles
+import '../../Components-CSS/PortfolioHeaderComponets/HeaderLogo.css';
+//Assets
+import wilderDevLogo from '../../assets/WilderDev.png'
+
+
 function HeaderLogo() {
   return (
-    <div>
-        <img src="#" alt="Personal Logo" />
-    </div>
+
+        <img className = "wilder-dev-logo-header" src={wilderDevLogo} alt="Personal Logo" />
+    
   )
 }
 
