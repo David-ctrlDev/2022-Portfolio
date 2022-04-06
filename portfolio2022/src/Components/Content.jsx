@@ -13,16 +13,17 @@ function Content() {
 
 		<div className="content-model">
 			<img src={personalPhoto} alt="Personal Photgraphy" />
-			<video autoplay muted loop id="myVideo">
-  			<source src={backgroundVideo} type="video/mp4">
-				  </source>
+			<video id="myVideo" autoPlay muted loop >
+  			<source src={backgroundVideo} type="video/mp4"></source>
+			  <source src={backgroundVideo} type="video/ogg"></source>
 		</video>
+		
 		</div>
 	
 		<div class="main-text">
 		
-			<h1>Hola!<br/> Soy Wilder Serna</h1>
-			<p>Software Developer, autodidacta, apasionado por las TICS
+			<h1>Hola! Soy<br/>Wilder Serna</h1>
+			<p>Software Developer, autodidacta, 
 			   Entusiasta de la ciencia de datos y su aplicación en las industrias</p>
 			
 		</div>

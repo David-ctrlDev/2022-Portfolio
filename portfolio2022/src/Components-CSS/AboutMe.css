@@ -1,0 +1,8 @@
+.about-me-container {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    display: flex;
+    top: 90%;
+}
